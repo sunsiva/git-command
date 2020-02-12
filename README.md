@@ -8,6 +8,16 @@ Git Commands
 | `git init` | Initialize a local Git repository |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 
+### Steps To Create & Push Local Code To New Repo
+
+| Command | Description |
+| ------- | ----------- |
+| git init | Initialize a local Git repository |
+| git add . or git add *.* | Add Files to local repo |
+| git commit -m "first commit" | Commit changes to local repo |
+| git remote add origin https://github.com/[username]/[repository-name].git | Add Remote Repo |
+| git push -u origin master | Push all the local files/folder to newly created repo |
+
 ### Basic Snapshot
 
 | Command | Description |
