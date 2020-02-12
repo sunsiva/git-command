@@ -18,7 +18,7 @@ Git Commands
 | `git remote add origin https://github.com/[username]/[repository-name].git` | Add Remote Repo |
 | `git push -u origin master` | Push all the local files/folder to newly created repo |
 
-### Basic Snapshot
+### Basic Commands
 
 | Command | Description |
 | ------- | ----------- |
@@ -27,6 +27,14 @@ Git Commands
 | `git add -A` | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
+
+### Git Reset
+
+| Command | Description |
+| ------- | ----------- |
+| `git reset --hard [commit id ex:e96d98d]` | To forcefully reset your commit back to any previous state by using the commit Id |
+| `git push -f origin [branch]` | This Removes commit along commit history back to any version |
+
 
 ### Branching & Merging
 
